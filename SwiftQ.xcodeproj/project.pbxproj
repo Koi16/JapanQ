@@ -7,23 +7,45 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9C2E2B9E164EB9C3F1905FD7 /* Pods_SwiftQ.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 082129763240A1F846AD938B /* Pods_SwiftQ.framework */; };
 		EB1EE8C12944249B006ED107 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB1EE8C02944249B006ED107 /* AppDelegate.swift */; };
 		EB1EE8C32944249B006ED107 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB1EE8C22944249B006ED107 /* SceneDelegate.swift */; };
-		EB1EE8C52944249B006ED107 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB1EE8C42944249B006ED107 /* ViewController.swift */; };
 		EB1EE8C82944249B006ED107 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EB1EE8C62944249B006ED107 /* Main.storyboard */; };
 		EB1EE8CA2944249C006ED107 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EB1EE8C92944249C006ED107 /* Assets.xcassets */; };
 		EB1EE8CD2944249C006ED107 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EB1EE8CB2944249C006ED107 /* LaunchScreen.storyboard */; };
+		EB1EE8D52944E87F006ED107 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB1EE8D42944E87F006ED107 /* LoginViewController.swift */; };
+		EB1EE8D72944E88E006ED107 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB1EE8D62944E88E006ED107 /* HomeViewController.swift */; };
+		EB1EE8D92944E939006ED107 /* PostViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB1EE8D82944E939006ED107 /* PostViewController.swift */; };
+		EB1EE8DB2944E947006ED107 /* LibraryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB1EE8DA2944E947006ED107 /* LibraryViewController.swift */; };
+		EB1EE8DD2944E95B006ED107 /* SettingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB1EE8DC2944E95B006ED107 /* SettingViewController.swift */; };
+		EB1EE8DF2944E9E3006ED107 /* NewAccountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB1EE8DE2944E9E3006ED107 /* NewAccountViewController.swift */; };
+		EB1EE8E12945B1AF006ED107 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB1EE8E02945B1AF006ED107 /* ProfileViewController.swift */; };
+		EB54B5C92946C7EF00174065 /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB54B5C82946C7EF00174065 /* TabBarController.swift */; };
+		EB54B5CB2946E8EE00174065 /* UIColorHex.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB54B5CA2946E8EE00174065 /* UIColorHex.swift */; };
+		EB54B5CD2947082A00174065 /* GoogleService-Info (1).plist in Resources */ = {isa = PBXBuildFile; fileRef = EB54B5CC2947082A00174065 /* GoogleService-Info (1).plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		082129763240A1F846AD938B /* Pods_SwiftQ.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwiftQ.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		42414FD7D0BE6E2AE2150E6B /* Pods-SwiftQ.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftQ.debug.xcconfig"; path = "Target Support Files/Pods-SwiftQ/Pods-SwiftQ.debug.xcconfig"; sourceTree = "<group>"; };
+		9C93921C111DC5DB2CD59CF6 /* Pods-SwiftQ.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftQ.release.xcconfig"; path = "Target Support Files/Pods-SwiftQ/Pods-SwiftQ.release.xcconfig"; sourceTree = "<group>"; };
 		EB1EE8BD2944249B006ED107 /* SwiftQ.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftQ.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EB1EE8C02944249B006ED107 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EB1EE8C22944249B006ED107 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		EB1EE8C42944249B006ED107 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		EB1EE8C72944249B006ED107 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		EB1EE8C92944249C006ED107 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EB1EE8CC2944249C006ED107 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EB1EE8CE2944249C006ED107 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EB1EE8D42944E87F006ED107 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		EB1EE8D62944E88E006ED107 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		EB1EE8D82944E939006ED107 /* PostViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostViewController.swift; sourceTree = "<group>"; };
+		EB1EE8DA2944E947006ED107 /* LibraryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LibraryViewController.swift; sourceTree = "<group>"; };
+		EB1EE8DC2944E95B006ED107 /* SettingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingViewController.swift; sourceTree = "<group>"; };
+		EB1EE8DE2944E9E3006ED107 /* NewAccountViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewAccountViewController.swift; sourceTree = "<group>"; };
+		EB1EE8E02945B1AF006ED107 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		EB54B5C82946C7EF00174065 /* TabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
+		EB54B5CA2946E8EE00174065 /* UIColorHex.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIColorHex.swift; sourceTree = "<group>"; };
+		EB54B5CC2947082A00174065 /* GoogleService-Info (1).plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info (1).plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +53,38 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9C2E2B9E164EB9C3F1905FD7 /* Pods_SwiftQ.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		379E11B5388F2BC26133B476 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				082129763240A1F846AD938B /* Pods_SwiftQ.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		89073FD665C3394CEFFB0E6A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				42414FD7D0BE6E2AE2150E6B /* Pods-SwiftQ.debug.xcconfig */,
+				9C93921C111DC5DB2CD59CF6 /* Pods-SwiftQ.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		EB1EE8B42944249B006ED107 = {
 			isa = PBXGroup;
 			children = (
 				EB1EE8BF2944249B006ED107 /* SwiftQ */,
 				EB1EE8BE2944249B006ED107 /* Products */,
+				89073FD665C3394CEFFB0E6A /* Pods */,
+				379E11B5388F2BC26133B476 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,11 +101,20 @@
 			children = (
 				EB1EE8C02944249B006ED107 /* AppDelegate.swift */,
 				EB1EE8C22944249B006ED107 /* SceneDelegate.swift */,
-				EB1EE8C42944249B006ED107 /* ViewController.swift */,
+				EB54B5CA2946E8EE00174065 /* UIColorHex.swift */,
+				EB54B5C82946C7EF00174065 /* TabBarController.swift */,
+				EB1EE8D42944E87F006ED107 /* LoginViewController.swift */,
+				EB1EE8DE2944E9E3006ED107 /* NewAccountViewController.swift */,
+				EB1EE8D62944E88E006ED107 /* HomeViewController.swift */,
+				EB1EE8D82944E939006ED107 /* PostViewController.swift */,
+				EB1EE8DA2944E947006ED107 /* LibraryViewController.swift */,
+				EB1EE8DC2944E95B006ED107 /* SettingViewController.swift */,
+				EB1EE8E02945B1AF006ED107 /* ProfileViewController.swift */,
 				EB1EE8C62944249B006ED107 /* Main.storyboard */,
 				EB1EE8C92944249C006ED107 /* Assets.xcassets */,
 				EB1EE8CB2944249C006ED107 /* LaunchScreen.storyboard */,
 				EB1EE8CE2944249C006ED107 /* Info.plist */,
+				EB54B5CC2947082A00174065 /* GoogleService-Info (1).plist */,
 			);
 			path = SwiftQ;
 			sourceTree = "<group>";
@@ -74,9 +126,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = EB1EE8D12944249C006ED107 /* Build configuration list for PBXNativeTarget "SwiftQ" */;
 			buildPhases = (
+				FC264C192FBE6F011837810F /* [CP] Check Pods Manifest.lock */,
 				EB1EE8B92944249B006ED107 /* Sources */,
 				EB1EE8BA2944249B006ED107 /* Frameworks */,
 				EB1EE8BB2944249B006ED107 /* Resources */,
+				7DF9DBCB71B2306210E79AD6 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -128,19 +182,70 @@
 				EB1EE8CD2944249C006ED107 /* LaunchScreen.storyboard in Resources */,
 				EB1EE8CA2944249C006ED107 /* Assets.xcassets in Resources */,
 				EB1EE8C82944249B006ED107 /* Main.storyboard in Resources */,
+				EB54B5CD2947082A00174065 /* GoogleService-Info (1).plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		7DF9DBCB71B2306210E79AD6 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SwiftQ/Pods-SwiftQ-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SwiftQ/Pods-SwiftQ-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SwiftQ/Pods-SwiftQ-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FC264C192FBE6F011837810F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SwiftQ-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		EB1EE8B92944249B006ED107 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EB1EE8C52944249B006ED107 /* ViewController.swift in Sources */,
+				EB1EE8D92944E939006ED107 /* PostViewController.swift in Sources */,
+				EB1EE8D72944E88E006ED107 /* HomeViewController.swift in Sources */,
+				EB1EE8E12945B1AF006ED107 /* ProfileViewController.swift in Sources */,
+				EB54B5C92946C7EF00174065 /* TabBarController.swift in Sources */,
+				EB1EE8D52944E87F006ED107 /* LoginViewController.swift in Sources */,
+				EB1EE8DD2944E95B006ED107 /* SettingViewController.swift in Sources */,
+				EB1EE8DF2944E9E3006ED107 /* NewAccountViewController.swift in Sources */,
+				EB1EE8DB2944E947006ED107 /* LibraryViewController.swift in Sources */,
 				EB1EE8C12944249B006ED107 /* AppDelegate.swift in Sources */,
 				EB1EE8C32944249B006ED107 /* SceneDelegate.swift in Sources */,
+				EB54B5CB2946E8EE00174065 /* UIColorHex.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -284,6 +389,7 @@
 		};
 		EB1EE8D22944249C006ED107 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 42414FD7D0BE6E2AE2150E6B /* Pods-SwiftQ.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -292,26 +398,28 @@
 				DEVELOPMENT_TEAM = 8AVAU3YFL2;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = SwiftQ/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = SwiftQ;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = UIInterfaceOrientationPortrait;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = jp.techacademy.takahiro.koizumi.SwiftQ;
+				PRODUCT_BUNDLE_IDENTIFIER = com.koi.takahiro.SwiftQ;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		EB1EE8D32944249C006ED107 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9C93921C111DC5DB2CD59CF6 /* Pods-SwiftQ.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -320,21 +428,22 @@
 				DEVELOPMENT_TEAM = 8AVAU3YFL2;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = SwiftQ/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = SwiftQ;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = UIInterfaceOrientationPortrait;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = jp.techacademy.takahiro.koizumi.SwiftQ;
+				PRODUCT_BUNDLE_IDENTIFIER = com.koi.takahiro.SwiftQ;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
