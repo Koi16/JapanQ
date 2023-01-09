@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		9C2E2B9E164EB9C3F1905FD7 /* Pods_SwiftQ.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 082129763240A1F846AD938B /* Pods_SwiftQ.framework */; };
+		A26D2E9594EA6AA07BC8EF23 /* Pods_JapanQ.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B95D64678CF7429C188F2066 /* Pods_JapanQ.framework */; };
 		EB1EE8C12944249B006ED107 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB1EE8C02944249B006ED107 /* AppDelegate.swift */; };
 		EB1EE8C32944249B006ED107 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB1EE8C22944249B006ED107 /* SceneDelegate.swift */; };
 		EB1EE8C82944249B006ED107 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EB1EE8C62944249B006ED107 /* Main.storyboard */; };
@@ -15,21 +15,27 @@
 		EB1EE8CD2944249C006ED107 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EB1EE8CB2944249C006ED107 /* LaunchScreen.storyboard */; };
 		EB1EE8D52944E87F006ED107 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB1EE8D42944E87F006ED107 /* LoginViewController.swift */; };
 		EB1EE8D72944E88E006ED107 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB1EE8D62944E88E006ED107 /* HomeViewController.swift */; };
-		EB1EE8D92944E939006ED107 /* PostViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB1EE8D82944E939006ED107 /* PostViewController.swift */; };
 		EB1EE8DB2944E947006ED107 /* LibraryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB1EE8DA2944E947006ED107 /* LibraryViewController.swift */; };
 		EB1EE8DD2944E95B006ED107 /* SettingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB1EE8DC2944E95B006ED107 /* SettingViewController.swift */; };
 		EB1EE8DF2944E9E3006ED107 /* NewAccountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB1EE8DE2944E9E3006ED107 /* NewAccountViewController.swift */; };
 		EB1EE8E12945B1AF006ED107 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB1EE8E02945B1AF006ED107 /* ProfileViewController.swift */; };
+		EB41E1AE296C41E800EBAF38 /* Const.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB41E1AD296C41E800EBAF38 /* Const.swift */; };
 		EB54B5C92946C7EF00174065 /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB54B5C82946C7EF00174065 /* TabBarController.swift */; };
 		EB54B5CB2946E8EE00174065 /* UIColorHex.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB54B5CA2946E8EE00174065 /* UIColorHex.swift */; };
-		EB54B5CD2947082A00174065 /* GoogleService-Info (1).plist in Resources */ = {isa = PBXBuildFile; fileRef = EB54B5CC2947082A00174065 /* GoogleService-Info (1).plist */; };
+		EB54B5D1294C0C2800174065 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = EB54B5D0294C0C2800174065 /* GoogleService-Info.plist */; };
+		EB8E75F1296553F200C419BE /* PostViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB8E75F0296553F200C419BE /* PostViewController.swift */; };
+		EB8E75F32966F1CA00C419BE /* CompletePostViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB8E75F22966F1CA00C419BE /* CompletePostViewController.swift */; };
+		EBE77E87295490E000AEC826 /* PopoverViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBE77E86295490E000AEC826 /* PopoverViewController.swift */; };
+		EBFA0AE8294CAF6700334BC0 /* NavigationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBFA0AE7294CAF6700334BC0 /* NavigationViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		082129763240A1F846AD938B /* Pods_SwiftQ.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwiftQ.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		42414FD7D0BE6E2AE2150E6B /* Pods-SwiftQ.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftQ.debug.xcconfig"; path = "Target Support Files/Pods-SwiftQ/Pods-SwiftQ.debug.xcconfig"; sourceTree = "<group>"; };
+		6C723140CE6647F9B4260351 /* Pods-JapanQ.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JapanQ.debug.xcconfig"; path = "Target Support Files/Pods-JapanQ/Pods-JapanQ.debug.xcconfig"; sourceTree = "<group>"; };
+		9AD76F4E4323BC11B3CE14EF /* Pods-JapanQ.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JapanQ.release.xcconfig"; path = "Target Support Files/Pods-JapanQ/Pods-JapanQ.release.xcconfig"; sourceTree = "<group>"; };
 		9C93921C111DC5DB2CD59CF6 /* Pods-SwiftQ.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftQ.release.xcconfig"; path = "Target Support Files/Pods-SwiftQ/Pods-SwiftQ.release.xcconfig"; sourceTree = "<group>"; };
-		EB1EE8BD2944249B006ED107 /* SwiftQ.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftQ.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B95D64678CF7429C188F2066 /* Pods_JapanQ.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JapanQ.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EB1EE8BD2944249B006ED107 /* JapanQ.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JapanQ.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EB1EE8C02944249B006ED107 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EB1EE8C22944249B006ED107 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		EB1EE8C72944249B006ED107 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -38,14 +44,18 @@
 		EB1EE8CE2944249C006ED107 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EB1EE8D42944E87F006ED107 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		EB1EE8D62944E88E006ED107 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
-		EB1EE8D82944E939006ED107 /* PostViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostViewController.swift; sourceTree = "<group>"; };
 		EB1EE8DA2944E947006ED107 /* LibraryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LibraryViewController.swift; sourceTree = "<group>"; };
 		EB1EE8DC2944E95B006ED107 /* SettingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingViewController.swift; sourceTree = "<group>"; };
 		EB1EE8DE2944E9E3006ED107 /* NewAccountViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewAccountViewController.swift; sourceTree = "<group>"; };
 		EB1EE8E02945B1AF006ED107 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		EB41E1AD296C41E800EBAF38 /* Const.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Const.swift; sourceTree = "<group>"; };
 		EB54B5C82946C7EF00174065 /* TabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
 		EB54B5CA2946E8EE00174065 /* UIColorHex.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIColorHex.swift; sourceTree = "<group>"; };
-		EB54B5CC2947082A00174065 /* GoogleService-Info (1).plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info (1).plist"; sourceTree = "<group>"; };
+		EB54B5D0294C0C2800174065 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		EB8E75F0296553F200C419BE /* PostViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostViewController.swift; sourceTree = "<group>"; };
+		EB8E75F22966F1CA00C419BE /* CompletePostViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompletePostViewController.swift; sourceTree = "<group>"; };
+		EBE77E86295490E000AEC826 /* PopoverViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopoverViewController.swift; sourceTree = "<group>"; };
+		EBFA0AE7294CAF6700334BC0 /* NavigationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,7 +63,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9C2E2B9E164EB9C3F1905FD7 /* Pods_SwiftQ.framework in Frameworks */,
+				A26D2E9594EA6AA07BC8EF23 /* Pods_JapanQ.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,7 +73,7 @@
 		379E11B5388F2BC26133B476 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				082129763240A1F846AD938B /* Pods_SwiftQ.framework */,
+				B95D64678CF7429C188F2066 /* Pods_JapanQ.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -73,15 +83,16 @@
 			children = (
 				42414FD7D0BE6E2AE2150E6B /* Pods-SwiftQ.debug.xcconfig */,
 				9C93921C111DC5DB2CD59CF6 /* Pods-SwiftQ.release.xcconfig */,
+				6C723140CE6647F9B4260351 /* Pods-JapanQ.debug.xcconfig */,
+				9AD76F4E4323BC11B3CE14EF /* Pods-JapanQ.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
 		EB1EE8B42944249B006ED107 = {
 			isa = PBXGroup;
 			children = (
-				EB1EE8BF2944249B006ED107 /* SwiftQ */,
+				EB1EE8BF2944249B006ED107 /* JapanQ */,
 				EB1EE8BE2944249B006ED107 /* Products */,
 				89073FD665C3394CEFFB0E6A /* Pods */,
 				379E11B5388F2BC26133B476 /* Frameworks */,
@@ -91,40 +102,44 @@
 		EB1EE8BE2944249B006ED107 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				EB1EE8BD2944249B006ED107 /* SwiftQ.app */,
+				EB1EE8BD2944249B006ED107 /* JapanQ.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		EB1EE8BF2944249B006ED107 /* SwiftQ */ = {
+		EB1EE8BF2944249B006ED107 /* JapanQ */ = {
 			isa = PBXGroup;
 			children = (
 				EB1EE8C02944249B006ED107 /* AppDelegate.swift */,
 				EB1EE8C22944249B006ED107 /* SceneDelegate.swift */,
 				EB54B5CA2946E8EE00174065 /* UIColorHex.swift */,
+				EBFA0AE7294CAF6700334BC0 /* NavigationViewController.swift */,
 				EB54B5C82946C7EF00174065 /* TabBarController.swift */,
 				EB1EE8D42944E87F006ED107 /* LoginViewController.swift */,
 				EB1EE8DE2944E9E3006ED107 /* NewAccountViewController.swift */,
 				EB1EE8D62944E88E006ED107 /* HomeViewController.swift */,
-				EB1EE8D82944E939006ED107 /* PostViewController.swift */,
 				EB1EE8DA2944E947006ED107 /* LibraryViewController.swift */,
-				EB1EE8DC2944E95B006ED107 /* SettingViewController.swift */,
+				EB8E75F0296553F200C419BE /* PostViewController.swift */,
+				EB8E75F22966F1CA00C419BE /* CompletePostViewController.swift */,
+				EB41E1AD296C41E800EBAF38 /* Const.swift */,
 				EB1EE8E02945B1AF006ED107 /* ProfileViewController.swift */,
+				EB1EE8DC2944E95B006ED107 /* SettingViewController.swift */,
+				EBE77E86295490E000AEC826 /* PopoverViewController.swift */,
 				EB1EE8C62944249B006ED107 /* Main.storyboard */,
 				EB1EE8C92944249C006ED107 /* Assets.xcassets */,
 				EB1EE8CB2944249C006ED107 /* LaunchScreen.storyboard */,
 				EB1EE8CE2944249C006ED107 /* Info.plist */,
-				EB54B5CC2947082A00174065 /* GoogleService-Info (1).plist */,
+				EB54B5D0294C0C2800174065 /* GoogleService-Info.plist */,
 			);
-			path = SwiftQ;
+			path = JapanQ;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		EB1EE8BC2944249B006ED107 /* SwiftQ */ = {
+		EB1EE8BC2944249B006ED107 /* JapanQ */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = EB1EE8D12944249C006ED107 /* Build configuration list for PBXNativeTarget "SwiftQ" */;
+			buildConfigurationList = EB1EE8D12944249C006ED107 /* Build configuration list for PBXNativeTarget "JapanQ" */;
 			buildPhases = (
 				FC264C192FBE6F011837810F /* [CP] Check Pods Manifest.lock */,
 				EB1EE8B92944249B006ED107 /* Sources */,
@@ -136,9 +151,9 @@
 			);
 			dependencies = (
 			);
-			name = SwiftQ;
+			name = JapanQ;
 			productName = SwiftQ;
-			productReference = EB1EE8BD2944249B006ED107 /* SwiftQ.app */;
+			productReference = EB1EE8BD2944249B006ED107 /* JapanQ.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -156,7 +171,7 @@
 					};
 				};
 			};
-			buildConfigurationList = EB1EE8B82944249B006ED107 /* Build configuration list for PBXProject "SwiftQ" */;
+			buildConfigurationList = EB1EE8B82944249B006ED107 /* Build configuration list for PBXProject "JapanQ" */;
 			compatibilityVersion = "Xcode 13.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -169,7 +184,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				EB1EE8BC2944249B006ED107 /* SwiftQ */,
+				EB1EE8BC2944249B006ED107 /* JapanQ */,
 			);
 		};
 /* End PBXProject section */
@@ -180,9 +195,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				EB1EE8CD2944249C006ED107 /* LaunchScreen.storyboard in Resources */,
+				EB54B5D1294C0C2800174065 /* GoogleService-Info.plist in Resources */,
 				EB1EE8CA2944249C006ED107 /* Assets.xcassets in Resources */,
 				EB1EE8C82944249B006ED107 /* Main.storyboard in Resources */,
-				EB54B5CD2947082A00174065 /* GoogleService-Info (1).plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -195,15 +210,15 @@
 			files = (
 			);
 			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-SwiftQ/Pods-SwiftQ-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-JapanQ/Pods-JapanQ-frameworks-${CONFIGURATION}-input-files.xcfilelist",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-SwiftQ/Pods-SwiftQ-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-JapanQ/Pods-JapanQ-frameworks-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SwiftQ/Pods-SwiftQ-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-JapanQ/Pods-JapanQ-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		FC264C192FBE6F011837810F /* [CP] Check Pods Manifest.lock */ = {
@@ -221,7 +236,7 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-SwiftQ-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-JapanQ-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -235,8 +250,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EB1EE8D92944E939006ED107 /* PostViewController.swift in Sources */,
+				EBFA0AE8294CAF6700334BC0 /* NavigationViewController.swift in Sources */,
+				EBE77E87295490E000AEC826 /* PopoverViewController.swift in Sources */,
 				EB1EE8D72944E88E006ED107 /* HomeViewController.swift in Sources */,
+				EB8E75F1296553F200C419BE /* PostViewController.swift in Sources */,
 				EB1EE8E12945B1AF006ED107 /* ProfileViewController.swift in Sources */,
 				EB54B5C92946C7EF00174065 /* TabBarController.swift in Sources */,
 				EB1EE8D52944E87F006ED107 /* LoginViewController.swift in Sources */,
@@ -245,7 +262,9 @@
 				EB1EE8DB2944E947006ED107 /* LibraryViewController.swift in Sources */,
 				EB1EE8C12944249B006ED107 /* AppDelegate.swift in Sources */,
 				EB1EE8C32944249B006ED107 /* SceneDelegate.swift in Sources */,
+				EB8E75F32966F1CA00C419BE /* CompletePostViewController.swift in Sources */,
 				EB54B5CB2946E8EE00174065 /* UIColorHex.swift in Sources */,
+				EB41E1AE296C41E800EBAF38 /* Const.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -389,7 +408,7 @@
 		};
 		EB1EE8D22944249C006ED107 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 42414FD7D0BE6E2AE2150E6B /* Pods-SwiftQ.debug.xcconfig */;
+			baseConfigurationReference = 6C723140CE6647F9B4260351 /* Pods-JapanQ.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -397,8 +416,10 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 8AVAU3YFL2;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = SwiftQ/Info.plist;
-				INFOPLIST_KEY_CFBundleDisplayName = SwiftQ;
+				INFOPLIST_FILE = JapanQ/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = JapanQ;
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
+				INFOPLIST_KEY_NSCameraUsageDescription = "";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -419,7 +440,7 @@
 		};
 		EB1EE8D32944249C006ED107 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9C93921C111DC5DB2CD59CF6 /* Pods-SwiftQ.release.xcconfig */;
+			baseConfigurationReference = 9AD76F4E4323BC11B3CE14EF /* Pods-JapanQ.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -427,8 +448,10 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 8AVAU3YFL2;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = SwiftQ/Info.plist;
-				INFOPLIST_KEY_CFBundleDisplayName = SwiftQ;
+				INFOPLIST_FILE = JapanQ/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = JapanQ;
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
+				INFOPLIST_KEY_NSCameraUsageDescription = "";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -450,7 +473,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		EB1EE8B82944249B006ED107 /* Build configuration list for PBXProject "SwiftQ" */ = {
+		EB1EE8B82944249B006ED107 /* Build configuration list for PBXProject "JapanQ" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				EB1EE8CF2944249C006ED107 /* Debug */,
@@ -459,7 +482,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		EB1EE8D12944249C006ED107 /* Build configuration list for PBXNativeTarget "SwiftQ" */ = {
+		EB1EE8D12944249C006ED107 /* Build configuration list for PBXNativeTarget "JapanQ" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				EB1EE8D22944249C006ED107 /* Debug */,
