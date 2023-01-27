@@ -20,6 +20,7 @@
 		EB1EE8DD2944E95B006ED107 /* SettingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB1EE8DC2944E95B006ED107 /* SettingViewController.swift */; };
 		EB1EE8DF2944E9E3006ED107 /* NewAccountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB1EE8DE2944E9E3006ED107 /* NewAccountViewController.swift */; };
 		EB1EE8E12945B1AF006ED107 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB1EE8E02945B1AF006ED107 /* ProfileViewController.swift */; };
+		EB3B85422983FD7000B09231 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = EB1EE8CE2944249C006ED107 /* Info.plist */; };
 		EB3D931D2983F2BA002D306C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EB1EE8C92944249C006ED107 /* Assets.xcassets */; };
 		EB41E1AE296C41E800EBAF38 /* Const.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB41E1AD296C41E800EBAF38 /* Const.swift */; };
 		EB41E1B3296D656B00EBAF38 /* CollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB41E1B1296D656B00EBAF38 /* CollectionViewCell.swift */; };
@@ -211,6 +212,7 @@
 			files = (
 				EB1EE8CD2944249C006ED107 /* LaunchScreen.storyboard in Resources */,
 				EB54B5D1294C0C2800174065 /* GoogleService-Info.plist in Resources */,
+				EB3B85422983FD7000B09231 /* Info.plist in Resources */,
 				EB1EE8C82944249B006ED107 /* Main.storyboard in Resources */,
 				EB41E1B4296D656B00EBAF38 /* CollectionViewCell.xib in Resources */,
 				EB3D931D2983F2BA002D306C /* Assets.xcassets in Resources */,
