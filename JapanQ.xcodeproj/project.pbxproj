@@ -8,10 +8,11 @@
 
 /* Begin PBXBuildFile section */
 		A26D2E9594EA6AA07BC8EF23 /* Pods_JapanQ.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B95D64678CF7429C188F2066 /* Pods_JapanQ.framework */; };
+		EB07ABD92971356700792AA3 /* ShowPostViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB07ABD82971356700792AA3 /* ShowPostViewController.swift */; };
+		EB0CFDDC297F1581005ABBF6 /* ComentsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB0CFDDB297F1581005ABBF6 /* ComentsViewController.swift */; };
 		EB1EE8C12944249B006ED107 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB1EE8C02944249B006ED107 /* AppDelegate.swift */; };
 		EB1EE8C32944249B006ED107 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB1EE8C22944249B006ED107 /* SceneDelegate.swift */; };
 		EB1EE8C82944249B006ED107 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EB1EE8C62944249B006ED107 /* Main.storyboard */; };
-		EB1EE8CA2944249C006ED107 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EB1EE8C92944249C006ED107 /* Assets.xcassets */; };
 		EB1EE8CD2944249C006ED107 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EB1EE8CB2944249C006ED107 /* LaunchScreen.storyboard */; };
 		EB1EE8D52944E87F006ED107 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB1EE8D42944E87F006ED107 /* LoginViewController.swift */; };
 		EB1EE8D72944E88E006ED107 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB1EE8D62944E88E006ED107 /* HomeViewController.swift */; };
@@ -19,7 +20,11 @@
 		EB1EE8DD2944E95B006ED107 /* SettingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB1EE8DC2944E95B006ED107 /* SettingViewController.swift */; };
 		EB1EE8DF2944E9E3006ED107 /* NewAccountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB1EE8DE2944E9E3006ED107 /* NewAccountViewController.swift */; };
 		EB1EE8E12945B1AF006ED107 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB1EE8E02945B1AF006ED107 /* ProfileViewController.swift */; };
+		EB3D931D2983F2BA002D306C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EB1EE8C92944249C006ED107 /* Assets.xcassets */; };
 		EB41E1AE296C41E800EBAF38 /* Const.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB41E1AD296C41E800EBAF38 /* Const.swift */; };
+		EB41E1B3296D656B00EBAF38 /* CollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB41E1B1296D656B00EBAF38 /* CollectionViewCell.swift */; };
+		EB41E1B4296D656B00EBAF38 /* CollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = EB41E1B2296D656B00EBAF38 /* CollectionViewCell.xib */; };
+		EB41E1B6296D712D00EBAF38 /* PostData.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB41E1B5296D712D00EBAF38 /* PostData.swift */; };
 		EB54B5C92946C7EF00174065 /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB54B5C82946C7EF00174065 /* TabBarController.swift */; };
 		EB54B5CB2946E8EE00174065 /* UIColorHex.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB54B5CA2946E8EE00174065 /* UIColorHex.swift */; };
 		EB54B5D1294C0C2800174065 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = EB54B5D0294C0C2800174065 /* GoogleService-Info.plist */; };
@@ -35,6 +40,8 @@
 		9AD76F4E4323BC11B3CE14EF /* Pods-JapanQ.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JapanQ.release.xcconfig"; path = "Target Support Files/Pods-JapanQ/Pods-JapanQ.release.xcconfig"; sourceTree = "<group>"; };
 		9C93921C111DC5DB2CD59CF6 /* Pods-SwiftQ.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftQ.release.xcconfig"; path = "Target Support Files/Pods-SwiftQ/Pods-SwiftQ.release.xcconfig"; sourceTree = "<group>"; };
 		B95D64678CF7429C188F2066 /* Pods_JapanQ.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JapanQ.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EB07ABD82971356700792AA3 /* ShowPostViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShowPostViewController.swift; sourceTree = "<group>"; };
+		EB0CFDDB297F1581005ABBF6 /* ComentsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComentsViewController.swift; sourceTree = "<group>"; };
 		EB1EE8BD2944249B006ED107 /* JapanQ.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JapanQ.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EB1EE8C02944249B006ED107 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EB1EE8C22944249B006ED107 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -49,6 +56,9 @@
 		EB1EE8DE2944E9E3006ED107 /* NewAccountViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewAccountViewController.swift; sourceTree = "<group>"; };
 		EB1EE8E02945B1AF006ED107 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
 		EB41E1AD296C41E800EBAF38 /* Const.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Const.swift; sourceTree = "<group>"; };
+		EB41E1B1296D656B00EBAF38 /* CollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewCell.swift; sourceTree = "<group>"; };
+		EB41E1B2296D656B00EBAF38 /* CollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CollectionViewCell.xib; sourceTree = "<group>"; };
+		EB41E1B5296D712D00EBAF38 /* PostData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostData.swift; sourceTree = "<group>"; };
 		EB54B5C82946C7EF00174065 /* TabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
 		EB54B5CA2946E8EE00174065 /* UIColorHex.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIColorHex.swift; sourceTree = "<group>"; };
 		EB54B5D0294C0C2800174065 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
@@ -119,8 +129,13 @@
 				EB1EE8DE2944E9E3006ED107 /* NewAccountViewController.swift */,
 				EB1EE8D62944E88E006ED107 /* HomeViewController.swift */,
 				EB1EE8DA2944E947006ED107 /* LibraryViewController.swift */,
+				EB07ABD82971356700792AA3 /* ShowPostViewController.swift */,
+				EB0CFDDB297F1581005ABBF6 /* ComentsViewController.swift */,
+				EB41E1B1296D656B00EBAF38 /* CollectionViewCell.swift */,
+				EB41E1B2296D656B00EBAF38 /* CollectionViewCell.xib */,
 				EB8E75F0296553F200C419BE /* PostViewController.swift */,
 				EB8E75F22966F1CA00C419BE /* CompletePostViewController.swift */,
+				EB41E1B5296D712D00EBAF38 /* PostData.swift */,
 				EB41E1AD296C41E800EBAF38 /* Const.swift */,
 				EB1EE8E02945B1AF006ED107 /* ProfileViewController.swift */,
 				EB1EE8DC2944E95B006ED107 /* SettingViewController.swift */,
@@ -196,8 +211,9 @@
 			files = (
 				EB1EE8CD2944249C006ED107 /* LaunchScreen.storyboard in Resources */,
 				EB54B5D1294C0C2800174065 /* GoogleService-Info.plist in Resources */,
-				EB1EE8CA2944249C006ED107 /* Assets.xcassets in Resources */,
 				EB1EE8C82944249B006ED107 /* Main.storyboard in Resources */,
+				EB41E1B4296D656B00EBAF38 /* CollectionViewCell.xib in Resources */,
+				EB3D931D2983F2BA002D306C /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -252,6 +268,8 @@
 			files = (
 				EBFA0AE8294CAF6700334BC0 /* NavigationViewController.swift in Sources */,
 				EBE77E87295490E000AEC826 /* PopoverViewController.swift in Sources */,
+				EB0CFDDC297F1581005ABBF6 /* ComentsViewController.swift in Sources */,
+				EB41E1B3296D656B00EBAF38 /* CollectionViewCell.swift in Sources */,
 				EB1EE8D72944E88E006ED107 /* HomeViewController.swift in Sources */,
 				EB8E75F1296553F200C419BE /* PostViewController.swift in Sources */,
 				EB1EE8E12945B1AF006ED107 /* ProfileViewController.swift in Sources */,
@@ -259,10 +277,12 @@
 				EB1EE8D52944E87F006ED107 /* LoginViewController.swift in Sources */,
 				EB1EE8DD2944E95B006ED107 /* SettingViewController.swift in Sources */,
 				EB1EE8DF2944E9E3006ED107 /* NewAccountViewController.swift in Sources */,
+				EB41E1B6296D712D00EBAF38 /* PostData.swift in Sources */,
 				EB1EE8DB2944E947006ED107 /* LibraryViewController.swift in Sources */,
 				EB1EE8C12944249B006ED107 /* AppDelegate.swift in Sources */,
 				EB1EE8C32944249B006ED107 /* SceneDelegate.swift in Sources */,
 				EB8E75F32966F1CA00C419BE /* CompletePostViewController.swift in Sources */,
+				EB07ABD92971356700792AA3 /* ShowPostViewController.swift in Sources */,
 				EB54B5CB2946E8EE00174065 /* UIColorHex.swift in Sources */,
 				EB41E1AE296C41E800EBAF38 /* Const.swift in Sources */,
 			);

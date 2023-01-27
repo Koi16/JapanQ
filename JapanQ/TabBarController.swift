@@ -19,11 +19,12 @@ class TabBarController: UITabBarController, UITabBarControllerDelegate {
         //タブ背景色
         let appearance = UITabBarAppearance()
         appearance.backgroundColor =  UIColor(hex: "6884AD")
-//        UITabBar.appearance().standardAppearance = appearance
-//        UITabBar.appearance().scrollEdgeAppearance = appearance
+        UITabBar.appearance().standardAppearance = appearance
+        UITabBar.appearance().scrollEdgeAppearance = appearance
         
-        self.tabBar.unselectedItemTintColor = UIColor(hex: "d4e5fc")
-        self.tabBar.tintColor = UIColor(hex: "063475")
+        UITabBar.appearance().tintColor = UIColor.white
+//      self.tabBar.unselectedItemTintColor = UIColor(hex: "d4e5fc")
+//        self.tabBar.tintColor = UIColor(hex: "063475")
         
         //UITabBarControllerDelegateプロトコルのメソッドをこのクラスで処理する
         self.delegate = self

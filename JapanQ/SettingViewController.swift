@@ -77,7 +77,6 @@ class SettingViewController: UIViewController {
     
     override func viewDidAppear(_ animated: Bool) {
         
-        print("viewDidAppear")
         super.viewDidAppear(animated)
         let user = Auth.auth().currentUser
         self.userNameTextLabel.text = user?.displayName

@@ -14,7 +14,7 @@ import SVProgressHUD
 class PostViewController: UIViewController, UIImagePickerControllerDelegate, UINavigationControllerDelegate, CLImageEditorDelegate {
     @IBOutlet weak var imageView: UIImageView!
     @IBOutlet weak var titleTextField: UITextField!
-    @IBOutlet weak var categoryTextField: UITextField!
+    @IBOutlet weak var storeNameTextField: UITextField!
     @IBOutlet weak var textTextView: UITextView!
     
     var image: UIImage!
@@ -84,8 +84,8 @@ class PostViewController: UIViewController, UIImagePickerControllerDelegate, UIN
     }
     
     @IBAction func nextButton(_ sender: Any) {
-        if let title = titleTextField.text, let category = categoryTextField.text, let text = textTextView.text {
-            if title.isEmpty || category.isEmpty || text.isEmpty {
+        if let title = titleTextField.text, let storeName = storeNameTextField.text, let text = textTextView.text {
+            if title.isEmpty || storeName.isEmpty || text.isEmpty {
                 SVProgressHUD.showError(withStatus: "必要項目を入力して下さい")
                 print("何かが未入力です")
                 return
@@ -96,7 +96,7 @@ class PostViewController: UIViewController, UIImagePickerControllerDelegate, UIN
                 let completePostViewController = self.storyboard?.instantiateViewController(withIdentifier: "complete") as! CompletePostViewController
                 completePostViewController.image = image
                 completePostViewController.titleStr = title
-                completePostViewController.categoryStr = category
+                completePostViewController.storeNameStr = storeName
                 completePostViewController.textStr = text
                 SVProgressHUD.dismiss()
                 self.present(completePostViewController, animated: true, completion: nil)
