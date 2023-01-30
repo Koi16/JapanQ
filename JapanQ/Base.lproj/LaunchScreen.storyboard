@@ -15,18 +15,20 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="LuanchImage" translatesAutoresizingMaskIntoConstraints="NO" id="kxi-n8-fIk">
-                                <rect key="frame" x="0.0" y="44" width="414" height="808"/>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Black Text Icons Icon Set" translatesAutoresizingMaskIntoConstraints="NO" id="gmY-73-xZP">
+                                <rect key="frame" x="0.0" y="241" width="414" height="414"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="gmY-73-xZP" secondAttribute="height" multiplier="1:1" id="coT-pW-cSk"/>
+                                </constraints>
                             </imageView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" red="0.41006308790000001" green="0.5187581778" blue="0.6792727113" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
-                            <constraint firstItem="kxi-n8-fIk" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="70D-ma-AkV"/>
-                            <constraint firstItem="kxi-n8-fIk" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="Fm5-Hy-Fa3"/>
-                            <constraint firstItem="kxi-n8-fIk" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="gDk-NS-Zbj"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="kxi-n8-fIk" secondAttribute="trailing" id="gHe-FZ-8O5"/>
-                            <constraint firstItem="kxi-n8-fIk" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="yK2-Hp-b21"/>
+                            <constraint firstItem="gmY-73-xZP" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="0bh-LK-2Vy"/>
+                            <constraint firstItem="gmY-73-xZP" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="DzY-Kf-wLk"/>
+                            <constraint firstItem="gmY-73-xZP" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="ZeP-rD-Jjw"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="gmY-73-xZP" secondAttribute="trailing" id="xn0-yT-eIa"/>
                         </constraints>
                     </view>
                 </viewController>
@@ -36,6 +38,6 @@
         </scene>
     </scenes>
     <resources>
-        <image name="LuanchImage" width="512" height="512"/>
+        <image name="Black Text Icons Icon Set" width="512" height="512"/>
     </resources>
 </document>
