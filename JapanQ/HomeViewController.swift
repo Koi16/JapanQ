@@ -118,18 +118,6 @@ class HomeViewController: UIViewController, UIPopoverPresentationControllerDeleg
         
     }
     
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
     //投稿
     @IBAction func postButton(_ sender: Any) {
         let postViewController = self.storyboard?.instantiateViewController(withIdentifier: "post")

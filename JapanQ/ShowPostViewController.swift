@@ -11,7 +11,7 @@ import FirebaseStorageUI
 
 
 class ShowPostViewController: UIViewController {
-
+    
     @IBOutlet weak var backButton: UIButton!
     @IBOutlet weak var titleLabel: UILabel!
     @IBOutlet weak var storeNameLabel: UILabel!
@@ -24,8 +24,8 @@ class ShowPostViewController: UIViewController {
     @IBOutlet weak var captionLabel: UILabel!
     
     var postData: PostData!
-//    var indexPath: IndexPath!
-//    var postArray: [PostData] = []
+    //    var indexPath: IndexPath!
+    //    var postArray: [PostData] = []
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -56,7 +56,7 @@ class ShowPostViewController: UIViewController {
         
         //textの表示
         self.captionTextView.text = "\(postData.text!)"
-
+        
         // 日時の表示
         self.dateLabel.text = ""
         if let date = postData.date {
@@ -69,73 +69,46 @@ class ShowPostViewController: UIViewController {
         //comentsTextView.lineBreakMode = .byWordWrapping
         //コメントの表示
         var allComents = self.comentsTextView.text!
-
+        
         if postData.coments.isEmpty == true {
             self.comentsTextView.text! = "コメントなし"
             self.comentsTextView.textColor = UIColor.opaqueSeparator
-
+            
         }else {
             //コメントなしの消去
             allComents.removeAll()
             self.comentsTextView.textColor = UIColor.white
             if postData.coments.count >= 1 {
-            if postData.coments.count == 1 {
-                self.comentsTextView.text! = postData.coments.first!
-            }else {
-                allComents.removeAll()
-                //for文で全要素改行表示
-                for i in postData.coments.prefix(postData.coments.count - 1) {
-                    allComents += i
-                    allComents += "\n"
+                if postData.coments.count == 1 {
+                    self.comentsTextView.text! = postData.coments.first!
+                }else {
+                    allComents.removeAll()
+                    //for文で全要素改行表示
+                    for i in postData.coments.prefix(postData.coments.count - 1) {
+                        allComents += i
+                        allComents += "\n"
+                        self.comentsTextView.text! = allComents
+                    }
+                    let v = postData.coments.last!
+                    allComents += v
                     self.comentsTextView.text! = allComents
                 }
-                let v = postData.coments.last!
-                allComents += v
-                self.comentsTextView.text! = allComents
-            }
             }
         }
-
-
+        
+        
     }
     
     override func viewDidAppear(_ animated: Bool) {
         super.viewDidAppear(animated)
-        //comentsTextView.lineBreakMode = .byWordWrapping
-print("viewdidappear")
+        print("viewdidappear")
         comentsTextView.reloadInputViews()
-//        //コメントの表示
-//        var allComents = self.comentsTextView.text!
-//
-////        if postData.coments.isEmpty == true {
-////            self.comentsTextView.text! = "コメントなし"
-////            self.comentsTextView.textColor = .gray
-////
-////        }else {
-////            allComents.removeAll()
-//            self.comentsTextView.textColor = .white
-//        if postData.coments.count >= 1 {
-//            if postData.coments.count == 1 {
-//                self.comentsTextView.text! = postData.coments.first!
-//            }else {
-//                allComents.removeAll()
-//                //for文で全要素改行表示
-//                for i in postData.coments.prefix(postData.coments.count - 1) {
-//                    allComents += i
-//                    allComents += "\n"
-//                    self.comentsTextView.text! = allComents
-//                }
-//                let v = postData.coments.last!
-//                allComents += v
-//                self.comentsTextView.text! = allComents
-//            }
-//        }
         
     }
     
     @IBAction func seeAllComentsButton(_ sender: Any) {
         //配列からタップされたインデックスのデータを取り出す
-//        let postData = postArray[indexPath!.row]
+        //        let postData = postArray[indexPath!.row]
         let comentsViewController = self.storyboard?.instantiateViewController(withIdentifier: "coments") as! ComentsViewController
         comentsViewController.postData = postData
         self.present(comentsViewController, animated: true, completion: nil)

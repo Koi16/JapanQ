@@ -10,7 +10,7 @@ import Firebase
 import SVProgressHUD
 
 class LibraryViewController: UIViewController, UIPopoverPresentationControllerDelegate, UICollectionViewDelegate, UICollectionViewDataSource, UICollectionViewDelegateFlowLayout {
-
+    
     @IBOutlet weak var collectionView: UICollectionView!
     // 投稿データを格納する配列
     var postArray: [PostData] = []
@@ -108,7 +108,7 @@ class LibraryViewController: UIViewController, UIPopoverPresentationControllerDe
         
         
         let showPostViewController = self.storyboard?.instantiateViewController(withIdentifier: "showpost") as! ShowPostViewController
-let comentsViewController = self.storyboard?.instantiateViewController(withIdentifier: "coments") as! ComentsViewController
+        let comentsViewController = self.storyboard?.instantiateViewController(withIdentifier: "coments") as! ComentsViewController
         comentsViewController.postData = postData
         showPostViewController.postData = postData
         self.present(showPostViewController, animated: true, completion: nil)
@@ -141,6 +141,6 @@ let comentsViewController = self.storyboard?.instantiateViewController(withIdent
         // .noneを設定することで、設定したサイズでポップオーバーされる
         return .none
     }
-
-
+    
+    
 }

@@ -37,8 +37,6 @@ class ProfileViewController: UIViewController {
         self.mailLabel.text = user?.email
     }
     @IBAction func changeProfileButton(_ sender: Any) {
-//        let settingViewController = self.storyboard?.instantiateViewController(withIdentifier: "setting")
-//        present(settingViewController!, animated: true, completion: nil)
         let settingViewController = storyboard?.instantiateViewController(identifier: "setting") as! SettingViewController
         settingViewController.presentationController?.delegate = self
         self.present(settingViewController, animated: true, completion: nil)

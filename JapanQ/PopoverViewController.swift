@@ -90,10 +90,7 @@ class PopoverViewController: UIViewController {
                     
                     self.view.endEditing(true)
                     self.dismiss(animated: true, completion: nil)
-                    // presentingViewController?.beginAppearanceTransition(true, animated: animated)
-                    
-                    //                    let settingViewController = self.storyboard?.instantiateViewController(withIdentifier: "setting")
-                    //                    self.present(settingViewController!, animated: true, completion: nil)
+                   
                 }
             }
         }

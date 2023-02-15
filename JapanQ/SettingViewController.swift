@@ -84,34 +84,22 @@ class SettingViewController: UIViewController {
         //refresh()
     }
     
-    //    func refresh() {
-    //        let user = Auth.auth().currentUser
-    //        self.userNameTextLabel.text = user?.displayName
-    //        self.mailTextLabel.text = user?.email
-    //    }
+   
 
     
     @IBAction func editUserNameButton(_ sender: Any) {
-      //  let popoverViewController = self.storyboard?.instantiateViewController(withIdentifier: "userName")
         let popoverViewController = storyboard?.instantiateViewController(identifier: "userName") as! PopoverViewController
         popoverViewController.presentationController?.delegate = self
         self.present(popoverViewController, animated: true, completion: nil)
     }
     
-    //@IBAction func editMailButton(_ sender: Any) {
-    //}
+   
     @IBAction func editPasswordButton(_ sender: Any) {
         let user = Auth.auth().currentUser
         let email = user?.email
-        // ① UIAlertControllerクラスのインスタンスを生成
-        // タイトル, メッセージ, Alertのスタイルを指定する
-        // 第3引数のpreferredStyleでアラートの表示スタイルを指定する
+        
         let alert = UIAlertController(title: "パスワードを変更する", message: "\(email!)にURLを送信します。", preferredStyle:  UIAlertController.Style.alert)
 
-        // ② Actionの設定
-        // Action初期化時にタイトル, スタイル, 押された時に実行されるハンドラを指定する
-        // 第3引数のUIAlertActionStyleでボタンのスタイルを指定する
-        // OKボタン
         let defaultAction = UIAlertAction(title: "OK", style: UIAlertAction.Style.default, handler:{
             // ボタンが押された時の処理を書く（クロージャ実装）
             (action: UIAlertAction!) -> Void in
@@ -121,10 +109,8 @@ class SettingViewController: UIViewController {
                     if error != nil {
                         let loginViewController = self.storyboard?.instantiateViewController(withIdentifier: "Login")
                         self.present(loginViewController!, animated: true, completion: nil)
-                        //                          self.alert(title: "メールを送信しました。", message: "メールでパスワードの再設定を行ってください。", actiontitle: "OK")
                     } else {
                         print("エラー：\(String(describing: error?.localizedDescription))")
-                        //                          self.alert(title: "エラー", message: "このメールアドレスは登録されてません。", actiontitle: "OK")
                     }
                 }
             })
@@ -136,11 +122,9 @@ class SettingViewController: UIViewController {
             print("Cancel")
         })
 
-        // ③ UIAlertControllerにActionを追加
         alert.addAction(cancelAction)
         alert.addAction(defaultAction)
 
-        // ④ Alertを表示
         self.present(alert, animated: true, completion: nil)
     
     }
