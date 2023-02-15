@@ -78,7 +78,7 @@ class ShowPostViewController: UIViewController {
             //コメントなしの消去
             allComents.removeAll()
             self.comentsTextView.textColor = UIColor.white
-
+            if postData.coments.count >= 1 {
             if postData.coments.count == 1 {
                 self.comentsTextView.text! = postData.coments.first!
             }else {
@@ -92,6 +92,7 @@ class ShowPostViewController: UIViewController {
                 let v = postData.coments.last!
                 allComents += v
                 self.comentsTextView.text! = allComents
+            }
             }
         }
 
@@ -102,32 +103,33 @@ class ShowPostViewController: UIViewController {
         super.viewDidAppear(animated)
         //comentsTextView.lineBreakMode = .byWordWrapping
 print("viewdidappear")
-        //コメントの表示
-        var allComents = self.comentsTextView.text!
-        
-//        if postData.coments.isEmpty == true {
-//            self.comentsTextView.text! = "コメントなし"
-//            self.comentsTextView.textColor = .gray
+        comentsTextView.reloadInputViews()
+//        //コメントの表示
+//        var allComents = self.comentsTextView.text!
 //
-//        }else {
-//            allComents.removeAll()
-            self.comentsTextView.textColor = .white
-    
-            if postData.coments.count == 1 {
-                self.comentsTextView.text! = postData.coments.first!
-            }else {
-                allComents.removeAll()
-                //for文で全要素改行表示
-                for i in postData.coments.prefix(postData.coments.count - 1) {
-                    allComents += i
-                    allComents += "\n"
-                    self.comentsTextView.text! = allComents
-                }
-                let v = postData.coments.last!
-                allComents += v
-                self.comentsTextView.text! = allComents
-            }
-        //}
+////        if postData.coments.isEmpty == true {
+////            self.comentsTextView.text! = "コメントなし"
+////            self.comentsTextView.textColor = .gray
+////
+////        }else {
+////            allComents.removeAll()
+//            self.comentsTextView.textColor = .white
+//        if postData.coments.count >= 1 {
+//            if postData.coments.count == 1 {
+//                self.comentsTextView.text! = postData.coments.first!
+//            }else {
+//                allComents.removeAll()
+//                //for文で全要素改行表示
+//                for i in postData.coments.prefix(postData.coments.count - 1) {
+//                    allComents += i
+//                    allComents += "\n"
+//                    self.comentsTextView.text! = allComents
+//                }
+//                let v = postData.coments.last!
+//                allComents += v
+//                self.comentsTextView.text! = allComents
+//            }
+//        }
         
     }
     

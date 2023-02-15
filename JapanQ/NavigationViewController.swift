@@ -6,6 +6,7 @@
 //
 
 import UIKit
+import Firebase
 
 class NavigationViewController: UINavigationController {
 
@@ -23,6 +24,17 @@ class NavigationViewController: UINavigationController {
         UINavigationBar.appearance().compactAppearance = appearance
     }
     
+    override func viewDidAppear(_ animated: Bool) {
+        super.viewDidAppear(animated)
+        print("Tabbar出現")
+
+        if Auth.auth().currentUser == nil {
+            let loginViewController = self.storyboard?.instantiateViewController(withIdentifier: "Login")
+            self.present(loginViewController!, animated: true, completion: nil)
+        }
+        
+
+    }
     
     
 }

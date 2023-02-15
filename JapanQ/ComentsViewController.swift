@@ -46,12 +46,12 @@ class ComentsViewController: UIViewController, UITextViewDelegate {
         //コメントの表示
         var allComents = self.comentsTextView.text!
         
-        if postData.coments.isEmpty == true {
-            self.comentsTextView.text! = "コメントなし"
-            self.comentsTextView.textColor = .gray
-            
-        }else {
-            allComents.removeAll()
+//        if postData.coments.isEmpty == true {
+//            self.comentsTextView.text! = "コメントなし"
+//            self.comentsTextView.textColor = .gray
+//
+//        }
+        if postData.coments.isEmpty == false {
             self.comentsTextView.textColor = .white
     
             if postData.coments.count == 1 {
@@ -81,7 +81,7 @@ class ComentsViewController: UIViewController, UITextViewDelegate {
             //更新データを作成する
             var updateValue: FieldValue
             
-            //今回新たに送信を押した場合は、dispkaynameとコメントを追加する更新データを作成
+            //今回新たに送信を押した場合は、displaynameとコメントを追加する更新データを作成
             updateValue = FieldValue.arrayUnion([comentData])
             
             //comentsに更新データを書き込む
@@ -91,8 +91,7 @@ class ComentsViewController: UIViewController, UITextViewDelegate {
        
         //コメントの表示
         var allComents = self.comentsTextView.text!
-        //allComents.removeAll()
-        self.comentsTextView.textColor = .black
+        self.comentsTextView.textColor = .white
         let v = self.textView.text!
         let displayname = Auth.auth().currentUser?.displayName
         let newComents = "\(displayname!) : \(v)"
@@ -101,15 +100,17 @@ class ComentsViewController: UIViewController, UITextViewDelegate {
         self.comentsTextView.text! = allComents
         
         self.textView.text.removeAll()
-        self.viewDidLoad()
+        //self.viewDidLoad()
 
         view.endEditing(true)
-        self.dismiss(animated: true, completion: nil)
+    
+        //self.dismiss(animated: true, completion: nil)
 
     }
     
     @IBAction func buckButton(_ sender: Any) {
-        self.dismiss(animated: true, completion: nil)
+       // self.dismiss(animated: true, completion: nil)
+        self.view.window?.rootViewController?.dismiss(animated: true, completion: nil)
 
     }
     

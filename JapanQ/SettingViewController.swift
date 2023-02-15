@@ -46,9 +46,9 @@ class SettingViewController: UIViewController {
         self.editUserNameButton.backgroundColor = UIColor(hex: "6884AD")
         self.editUserNameButton.layer.cornerRadius = 2
         
-        self.editMailButton.tintColor = UIColor.white
-        self.editMailButton.backgroundColor = UIColor(hex: "6884AD")
-        self.editMailButton.layer.cornerRadius = 2
+        //self.editMailButton.tintColor = UIColor.white
+        //self.editMailButton.backgroundColor = UIColor(hex: "6884AD")
+        //self.editMailButton.layer.cornerRadius = 2
         
         self.editPasswordButton.tintColor = UIColor.white
         self.editPasswordButton.backgroundColor = UIColor(hex: "6884AD")
@@ -98,8 +98,8 @@ class SettingViewController: UIViewController {
         self.present(popoverViewController, animated: true, completion: nil)
     }
     
-    @IBAction func editMailButton(_ sender: Any) {
-    }
+    //@IBAction func editMailButton(_ sender: Any) {
+    //}
     @IBAction func editPasswordButton(_ sender: Any) {
         let user = Auth.auth().currentUser
         let email = user?.email
