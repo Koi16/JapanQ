@@ -31,10 +31,8 @@ class SettingViewController: UIViewController {
     @IBOutlet weak var userNameTextLabel: UILabel!
     @IBOutlet weak var mailTextLabel: UILabel!
     @IBOutlet weak var passwordTextLabel: UILabel!
-    @IBOutlet weak var howManyPostTextLabel: UILabel!
     
     @IBOutlet weak var editUserNameButton: UIButton!
-    @IBOutlet weak var editMailButton: UIButton!
     @IBOutlet weak var editPasswordButton: UIButton!
     @IBOutlet weak var logoutButton: UIButton!
     @IBOutlet weak var cancelButton: UIButton!
@@ -45,10 +43,6 @@ class SettingViewController: UIViewController {
         self.editUserNameButton.tintColor = UIColor.white
         self.editUserNameButton.backgroundColor = UIColor(hex: "6884AD")
         self.editUserNameButton.layer.cornerRadius = 2
-        
-        //self.editMailButton.tintColor = UIColor.white
-        //self.editMailButton.backgroundColor = UIColor(hex: "6884AD")
-        //self.editMailButton.layer.cornerRadius = 2
         
         self.editPasswordButton.tintColor = UIColor.white
         self.editPasswordButton.backgroundColor = UIColor(hex: "6884AD")
@@ -70,7 +64,6 @@ class SettingViewController: UIViewController {
         self.userNameTextLabel.text = user?.displayName
         self.mailTextLabel.text = user?.email
         
-        //        self.userNameTextLabel.reloadInputViews()
         
         
     }

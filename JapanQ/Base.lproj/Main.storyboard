@@ -149,18 +149,6 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="投稿回数" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WtS-4x-ezM">
-                                <rect key="frame" x="30" y="496" width="70" height="21"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="10" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6BR-vO-FOa">
-                                <rect key="frame" x="30" y="527" width="18" height="21"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="UhO-n9-lFi">
                                 <rect key="frame" x="144" y="258" width="25" height="25"/>
                                 <constraints>
@@ -186,7 +174,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ujn-Bn-FFc">
-                                <rect key="frame" x="80" y="578" width="254" height="31"/>
+                                <rect key="frame" x="80" y="581" width="254" height="31"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title="Logout"/>
                                 <connections>
@@ -197,12 +185,8 @@
                         <viewLayoutGuide key="safeArea" id="7tF-wS-jRf"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
-                            <constraint firstItem="6BR-vO-FOa" firstAttribute="top" secondItem="WtS-4x-ezM" secondAttribute="bottom" constant="10" id="33Q-Jb-iAx"/>
                             <constraint firstItem="7tF-wS-jRf" firstAttribute="trailing" secondItem="Ujn-Bn-FFc" secondAttribute="trailing" constant="80" id="78M-Pu-NvU"/>
-                            <constraint firstItem="Ujn-Bn-FFc" firstAttribute="top" secondItem="6BR-vO-FOa" secondAttribute="bottom" constant="30" id="7fE-2a-pfs"/>
-                            <constraint firstItem="WtS-4x-ezM" firstAttribute="leading" secondItem="fsd-Wl-V6d" secondAttribute="leading" id="8uF-YI-SGl"/>
                             <constraint firstItem="UhO-n9-lFi" firstAttribute="leading" secondItem="Cce-pI-ASv" secondAttribute="trailing" constant="10" id="B81-AD-yVq"/>
-                            <constraint firstItem="WtS-4x-ezM" firstAttribute="top" secondItem="wJU-pM-a2a" secondAttribute="bottom" constant="30" id="Cq7-c9-9Fb"/>
                             <constraint firstItem="Cce-pI-ASv" firstAttribute="leading" secondItem="fsd-Wl-V6d" secondAttribute="leading" id="E1O-eU-2mA"/>
                             <constraint firstItem="fsd-Wl-V6d" firstAttribute="leading" secondItem="7tF-wS-jRf" secondAttribute="leading" constant="30" id="KqW-x5-Tuf"/>
                             <constraint firstItem="Ujn-Bn-FFc" firstAttribute="centerX" secondItem="mb0-Rz-wnI" secondAttribute="centerX" id="QMS-iy-kMi"/>
@@ -221,7 +205,7 @@
                             <constraint firstItem="fsd-Wl-V6d" firstAttribute="top" secondItem="GgA-BU-aaB" secondAttribute="bottom" constant="25" id="iOF-Iw-jVt"/>
                             <constraint firstItem="GgA-BU-aaB" firstAttribute="top" secondItem="7tF-wS-jRf" secondAttribute="top" constant="10" id="l1r-ij-icy"/>
                             <constraint firstItem="kVt-j1-OeI" firstAttribute="leading" secondItem="fsd-Wl-V6d" secondAttribute="leading" id="l5k-pV-ADJ"/>
-                            <constraint firstItem="6BR-vO-FOa" firstAttribute="leading" secondItem="fsd-Wl-V6d" secondAttribute="leading" id="nB1-Xg-Z1v"/>
+                            <constraint firstItem="Ujn-Bn-FFc" firstAttribute="top" secondItem="wJU-pM-a2a" secondAttribute="bottom" constant="115" id="m2W-VX-6IE"/>
                             <constraint firstItem="7tF-wS-jRf" firstAttribute="trailing" secondItem="5F8-sX-VFI" secondAttribute="trailing" constant="30" id="qoA-f6-rjG"/>
                             <constraint firstItem="kVt-j1-OeI" firstAttribute="top" secondItem="MkA-af-eKA" secondAttribute="bottom" constant="25" id="sL8-8n-5hN"/>
                             <constraint firstItem="MkA-af-eKA" firstAttribute="leading" secondItem="fsd-Wl-V6d" secondAttribute="leading" id="usK-Jq-nLP"/>
@@ -237,7 +221,6 @@
                         <outlet property="cancelButton" destination="GgA-BU-aaB" id="MAu-U3-IB0"/>
                         <outlet property="editPasswordButton" destination="pVB-zO-DC2" id="i7X-9K-5M0"/>
                         <outlet property="editUserNameButton" destination="UhO-n9-lFi" id="W9N-wp-25I"/>
-                        <outlet property="howManyPostTextLabel" destination="6BR-vO-FOa" id="E3q-Mr-MQJ"/>
                         <outlet property="logoutButton" destination="Ujn-Bn-FFc" id="lwH-1z-Eg6"/>
                         <outlet property="mailTextLabel" destination="MkA-af-eKA" id="cYP-Gx-33Y"/>
                         <outlet property="passwordTextLabel" destination="wJU-pM-a2a" id="nQ2-bu-LDW"/>
